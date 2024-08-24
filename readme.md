@@ -10,7 +10,7 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu sistema.
 
 ## Pasos para ejecutar el código
 
-`npm install`: Con esto instalaremos las dependecia de express
+`npm install`: Con esto instalaremos las dependecia de express //LISTO
 
 📂 Estructura del Código
 
@@ -21,13 +21,13 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu sistema.
 📂 routes: Carpeta que contiene los módulos de rutas.
   📄 endroute.js: Módulo de ruta para la página final.
   📄 index.js: Módulo de ruta para la página principal.
-
+LISTO 
 ## Preparando la Aplicación:
 
-1. La primera ruta que debe salir nada más inicializar el servidor será `index.js`
+1. La primera ruta que debe salir nada más inicializar el servidor será `index.js` LISTO
 En esta ruta habrá lo siguiente:
-- Un texto de bienvenida y la hora actual
-- Un botón que enlace `/endroute`
+- Un texto de bienvenida y la hora actual LISTO
+- Un botón que enlace `/endroute` LISTO
 - Al clickar tendrá que validar con el middleware `validarHora.js`si la hora es correcta para poder continuar. Solo se podrá acceder a `/endroute` si la hora es está entre las 12h de la mañana y las 24h.
 - Si es antes de las 12 al clickar en el botón nos saldrá un mensaje que diga algo como "Aún no son las 12 de la mañana"
 - Si accedemos directamente a la ruta `/endroute`, nos devolverá el mismo error y misma ruta que si pulsaramos el botón 
@@ -43,8 +43,7 @@ Un texto dando la bienvenida y la ruta donde estamos
 Adjunto unas imagenes para poder entenderlo mejor:
 * index.js
 
-![index.js](./img/index.png))
-
+![index.js](./img/index.png)
 * Dentro de endrpoute.js
 
 ![endroute.js](./img/endroute.png)
